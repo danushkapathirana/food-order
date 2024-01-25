@@ -1,7 +1,13 @@
-import React from "react"
+import React, { Fragment } from "react"
+
+import Header from "./Layout/Header"
 
 const App = () => {
-    return
+    return(
+        <Fragment>
+            <Header />
+        </Fragment>
+    )
 }
 
 export default App
